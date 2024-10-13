@@ -32,6 +32,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -47,6 +63,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG))">
       <SourceType>Package</SourceType>
@@ -80,6 +112,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -96,6 +144,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -111,6 +175,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg))">
       <SourceType>Package</SourceType>
@@ -272,6 +352,38 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -336,6 +448,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\691773c3-6e5c-49e2-80f8-879eeb09648d_◜💐◞.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -352,6 +480,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -367,6 +511,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg))">
       <SourceType>Package</SourceType>
@@ -448,6 +608,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -479,6 +655,38 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\avataaars.svg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\BacKB.jpg))">
       <SourceType>Package</SourceType>
@@ -656,6 +864,22 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg))">
       <SourceType>Package</SourceType>
       <SourceId>BKStore-MVC</SourceId>
@@ -687,6 +911,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg))">
       <SourceType>Package</SourceType>
@@ -735,6 +975,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg))">
       <SourceType>Package</SourceType>
@@ -831,6 +1087,22 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\DeathNote.jpg))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg))">
+      <SourceType>Package</SourceType>
+      <SourceId>BKStore-MVC</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/BKStore-MVC</BasePath>
+      <RelativePath>assets/img/e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath($(MSBuildThisFileDirectory)..\staticwebassets\assets\img\e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp))">
       <SourceType>Package</SourceType>

@@ -61,7 +61,6 @@ namespace BKStore_MVC.Controllers
                 customerOrderVM.Address = customerRepository.GetByID(CustomerID).Address;
                 customerOrderVM.GovernorateID = customerRepository.GetByID(CustomerID).GovernorateID;
                 customerOrderVM.Name = customerRepository.GetByID(CustomerID).Name;
-                customerOrderVM.Nationalnumber = customerRepository.GetByID(CustomerID).Nationalnumber;
                 customerOrderVM.Phone = customerRepository.GetByID(CustomerID).Phone;
                 customerOrderVM.PaymentFees = shippingMethodRepository.GetByID(1).PaymentFees;
                 return View("AddCustomer", customerOrderVM);
@@ -134,7 +133,6 @@ namespace BKStore_MVC.Controllers
                 customerOrderVM.Address = customerRepository.GetByID(CustomerID).Address;
                 customerOrderVM.GovernorateID = customerRepository.GetByID(CustomerID).GovernorateID;
                 customerOrderVM.Name = customerRepository.GetByID(CustomerID).Name;
-                customerOrderVM.Nationalnumber = customerRepository.GetByID(CustomerID).Nationalnumber;
                 customerOrderVM.Phone = customerRepository.GetByID(CustomerID).Phone;
                 customerOrderVM.PaymentFees = shippingMethodRepository.GetByID(1).PaymentFees;
                 return View("AddCustomer", customerOrderVM);
@@ -161,7 +159,6 @@ namespace BKStore_MVC.Controllers
                         customer.Address = customerOrderVM.Address;
                         customer.Phone= customerOrderVM.Phone;
                         customer.GovernorateID= customerOrderVM.GovernorateID;
-                        customer.Nationalnumber= customerOrderVM.Nationalnumber??"";
                         var userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
                         customer.UserID = userID;
                         customerRepository.Update(customer);
@@ -174,7 +171,6 @@ namespace BKStore_MVC.Controllers
                         customer.Address = customerOrderVM.Address;
                         customer.Phone = customerOrderVM.Phone;
                         customer.GovernorateID = customerOrderVM.GovernorateID;
-                        customer.Nationalnumber = customerOrderVM.Nationalnumber;
                         var userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
                         if (User.FindFirstValue(ClaimTypes.NameIdentifier) != null)
                         {
@@ -321,7 +317,6 @@ namespace BKStore_MVC.Controllers
             orderDetailVM.CustomerAddress = customer.Address;
             orderDetailVM.Governorate = governorate.Name;
             orderDetailVM.CustomerID = order.CustomerID;
-            orderDetailVM.Nationalnumber = customer.Nationalnumber;
 
             return View("Details", orderDetailVM);
         }

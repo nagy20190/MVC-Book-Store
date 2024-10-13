@@ -84,15 +84,7 @@
                                 <div class="card-body">
                                     <h5 class="card-title">@book.Title</h5>
                                     <p class="card-text">Author: @book.AuthorName</p>
-                                    <p class="card-text">Price: <strong>@book.Price</strong></p>
-                                    @if (book.StockQuantity != 0)
-                                    {
-                                        <p class="card-text">StockQuantity: <strong>@book.StockQuantity</strong></p>
-                                    }
-                                    else
-                                    {
-                                        <p class="card-text">StockQuantity: <strong style="color:red">Out Of Stock</strong></p>
-                                    }
+                                    <p class="card-text">Price: <strong>@book.Price EGP</strong></p>
                                     <div class="star-rating">
                                         @for (int i = 1; i <= 5; i++)
                                         {

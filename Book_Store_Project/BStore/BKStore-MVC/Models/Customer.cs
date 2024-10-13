@@ -16,8 +16,6 @@ namespace BKStore_MVC.Models
         [StringLength(15, ErrorMessage = " Phone cannot exceed 15 characters.")]
         public string Phone { get; set; }
         
-        [Display(Name = "national number")]
-        public string? Nationalnumber { get; set; }
         [ForeignKey(nameof(ApplicationUser))]
         public string? UserID { get; set; }
         [ForeignKey(nameof(Governorate))]

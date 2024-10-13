@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "4TyIHBKpXPc=",
+  "dgSpecHash": "ltB8iDmb1hc=",
   "success": true,
-  "projectFilePath": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj",
+  "projectFilePath": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\MG\\.nuget\\packages\\automapper\\13.0.1\\automapper.13.0.1.nupkg.sha512",
     "C:\\Users\\MG\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",

@@ -50,7 +50,7 @@ namespace BKStore_MVC.Controllers
                 shippingMethodRepository.Add(shipping);
                 shippingMethodRepository.Save();
             }
-            int pageSize = 10; // Number of items per page
+            int pageSize = 12; // Number of items per page
             int pageNumber = (page ?? 1); // Default to page 1 if no page is specified
 
             ViewBag.CurrentSort = sortOrder;
@@ -97,6 +97,7 @@ namespace BKStore_MVC.Controllers
             }
 
             var bookVM = _mapper.Map<BookWithAuthorWithPuplisherWithCategVM>(book);
+            bookVM.BookDiscount = book.discount;
             _mapper.Map(category, bookVM); // Map category properties to the view model
             var ratings = bookRatingRepository.GetByBookID(Bookid);
             ViewData["AvgRating"] = ratings.Any() ? Math.Round(ratings.Average(b => b.Rating), 1) : 0;

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "vyBfiOGjRwM/xj7tkwl0tFjdPQwr+LS6NH8uLQBP/nw=",
+  "Hash": "JG7W8w/zbT/RcxiFxr/FMrMjvrlsSZUyiXCS/Toz9gE=",
   "Source": "BKStore-MVC",
   "BasePath": "_content/BKStore-MVC",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "BKStore-MVC\\wwwroot",
       "Source": "BKStore-MVC",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BKStore-MVC.styles.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BKStore-MVC.styles.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "BKStore-MVC.styles.css",
       "AssetKind": "All",
@@ -33,13 +33,13 @@
       "AssetTraitValue": "ApplicationBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BKStore-MVC.styles.css"
+      "OriginalItemSpec": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\bundle\\BKStore-MVC.styles.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BKStore-MVC.bundle.scp.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BKStore-MVC.bundle.scp.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "BKStore-MVC.bundle.scp.css",
       "AssetKind": "All",
@@ -52,13 +52,13 @@
       "AssetTraitValue": "ProjectBundle",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BKStore-MVC.bundle.scp.css"
+      "OriginalItemSpec": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BKStore-MVC.bundle.scp.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\favicon.ico",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\favicon.ico",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/favicon.ico",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg",
       "AssetKind": "All",
@@ -93,10 +93,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg",
       "AssetKind": "All",
@@ -112,10 +131,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG",
       "AssetKind": "All",
@@ -131,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg",
       "AssetKind": "All",
@@ -150,10 +188,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "AssetKind": "All",
@@ -169,10 +226,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg",
       "AssetKind": "All",
@@ -188,10 +264,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg",
       "AssetKind": "All",
@@ -207,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\309cfa6b-ead0-4e19-967a-7685a76cf615_Trends International Fruits Basket - Teaser Protagonists Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\309cfa6b-ead0-4e19-967a-7685a76cf615_Trends International Fruits Basket - Teaser Protagonists Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/309cfa6b-ead0-4e19-967a-7685a76cf615_Trends International Fruits Basket - Teaser Protagonists Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg",
       "AssetKind": "All",
@@ -226,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\309cfa6b-ead0-4e19-967a-7685a76cf615_Trends International Fruits Basket - Teaser Protagonists Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\330878e4-5389-4fec-b879-299138426121_THE LORD OF THE RINGS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\330878e4-5389-4fec-b879-299138426121_THE LORD OF THE RINGS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/330878e4-5389-4fec-b879-299138426121_THE LORD OF THE RINGS.jpeg",
       "AssetKind": "All",
@@ -245,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\330878e4-5389-4fec-b879-299138426121_THE LORD OF THE RINGS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3394a317-372a-4132-a963-897f99b04ff0_nn.webp",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3394a317-372a-4132-a963-897f99b04ff0_nn.webp",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/3394a317-372a-4132-a963-897f99b04ff0_nn.webp",
       "AssetKind": "All",
@@ -264,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\3394a317-372a-4132-a963-897f99b04ff0_nn.webp"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3f1a2e7f-5d46-457a-918a-3b6e224e5578_BoundlessNecromancer.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3f1a2e7f-5d46-457a-918a-3b6e224e5578_BoundlessNecromancer.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/3f1a2e7f-5d46-457a-918a-3b6e224e5578_BoundlessNecromancer.jpg",
       "AssetKind": "All",
@@ -283,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\3f1a2e7f-5d46-457a-918a-3b6e224e5578_BoundlessNecromancer.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\437d87f8-8d80-4834-8e32-9189df0535e5_f7b07fa8-dff2-475b-95e7-c690d7f09c33.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\437d87f8-8d80-4834-8e32-9189df0535e5_f7b07fa8-dff2-475b-95e7-c690d7f09c33.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/437d87f8-8d80-4834-8e32-9189df0535e5_f7b07fa8-dff2-475b-95e7-c690d7f09c33.jpeg",
       "AssetKind": "All",
@@ -302,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\437d87f8-8d80-4834-8e32-9189df0535e5_f7b07fa8-dff2-475b-95e7-c690d7f09c33.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\44a02df6-f11c-459d-a9af-50bec2a65362_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\44a02df6-f11c-459d-a9af-50bec2a65362_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/44a02df6-f11c-459d-a9af-50bec2a65362_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "AssetKind": "All",
@@ -321,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\44a02df6-f11c-459d-a9af-50bec2a65362_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\4b11bd9e-ba5c-490e-b9ea-b966beaa7bdb_magic_cover.webp",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\4b11bd9e-ba5c-490e-b9ea-b966beaa7bdb_magic_cover.webp",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/4b11bd9e-ba5c-490e-b9ea-b966beaa7bdb_magic_cover.webp",
       "AssetKind": "All",
@@ -340,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\4b11bd9e-ba5c-490e-b9ea-b966beaa7bdb_magic_cover.webp"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\52344385-8893-4ff5-99b5-1c0dba960251_Moby Dick or The Whale by Herman Melville.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\52344385-8893-4ff5-99b5-1c0dba960251_Moby Dick or The Whale by Herman Melville.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/52344385-8893-4ff5-99b5-1c0dba960251_Moby Dick or The Whale by Herman Melville.jpeg",
       "AssetKind": "All",
@@ -359,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\52344385-8893-4ff5-99b5-1c0dba960251_Moby Dick or The Whale by Herman Melville.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -378,10 +473,48 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg",
       "AssetKind": "All",
@@ -397,10 +530,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\65dabb12-d068-4d0f-ab30-34134b182aca_War And Peace.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\65dabb12-d068-4d0f-ab30-34134b182aca_War And Peace.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/65dabb12-d068-4d0f-ab30-34134b182aca_War And Peace.jpeg",
       "AssetKind": "All",
@@ -416,10 +549,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\65dabb12-d068-4d0f-ab30-34134b182aca_War And Peace.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\666603.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\666603.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/666603.jpg",
       "AssetKind": "All",
@@ -435,10 +568,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\666603.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\691773c3-6e5c-49e2-80f8-879eeb09648d_◜\uD83D\uDC90◞.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\691773c3-6e5c-49e2-80f8-879eeb09648d_◜\uD83D\uDC90◞.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/691773c3-6e5c-49e2-80f8-879eeb09648d_◜\uD83D\uDC90◞.jpeg",
       "AssetKind": "All",
@@ -454,10 +587,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\691773c3-6e5c-49e2-80f8-879eeb09648d_◜\uD83D\uDC90◞.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp",
       "AssetKind": "All",
@@ -473,10 +625,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "AssetKind": "All",
@@ -492,10 +663,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg",
       "AssetKind": "All",
@@ -511,10 +701,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\7f89ed24-b183-4466-b0f3-3390c8adb571_1984 George Orwell - Book Cover.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\7f89ed24-b183-4466-b0f3-3390c8adb571_1984 George Orwell - Book Cover.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/7f89ed24-b183-4466-b0f3-3390c8adb571_1984 George Orwell - Book Cover.jpeg",
       "AssetKind": "All",
@@ -530,10 +720,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\7f89ed24-b183-4466-b0f3-3390c8adb571_1984 George Orwell - Book Cover.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\83983710-26d9-46da-83bf-dfd8e620a02f_3aa9c6bb-d5b9-47b4-8de5-a27f9fd7141c.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\83983710-26d9-46da-83bf-dfd8e620a02f_3aa9c6bb-d5b9-47b4-8de5-a27f9fd7141c.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/83983710-26d9-46da-83bf-dfd8e620a02f_3aa9c6bb-d5b9-47b4-8de5-a27f9fd7141c.jpeg",
       "AssetKind": "All",
@@ -549,10 +739,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\83983710-26d9-46da-83bf-dfd8e620a02f_3aa9c6bb-d5b9-47b4-8de5-a27f9fd7141c.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\8d722d36-16c0-40ca-807e-d045c59f7ad9_Fearness.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\8d722d36-16c0-40ca-807e-d045c59f7ad9_Fearness.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/8d722d36-16c0-40ca-807e-d045c59f7ad9_Fearness.jpg",
       "AssetKind": "All",
@@ -568,10 +758,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\8d722d36-16c0-40ca-807e-d045c59f7ad9_Fearness.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -587,10 +777,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -606,10 +815,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\avataaars.svg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\avataaars.svg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/avataaars.svg",
       "AssetKind": "All",
@@ -625,10 +834,48 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\avataaars.svg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BacKB.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BacKB.jpg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/BacKB.jpg",
       "AssetKind": "All",
@@ -644,10 +891,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\BacKB.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\background.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\background.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/background.jpg",
       "AssetKind": "All",
@@ -663,10 +910,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\background.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BBB.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BBB.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/BBB.jpeg",
       "AssetKind": "All",
@@ -682,10 +929,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\BBB.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bf99b7b4-6bc0-4b3a-b84f-c7946901a3ff_30d2ceb3-4a65-4325-8bb2-39f8d9e426e6.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bf99b7b4-6bc0-4b3a-b84f-c7946901a3ff_30d2ceb3-4a65-4325-8bb2-39f8d9e426e6.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/bf99b7b4-6bc0-4b3a-b84f-c7946901a3ff_30d2ceb3-4a65-4325-8bb2-39f8d9e426e6.jpeg",
       "AssetKind": "All",
@@ -701,10 +948,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\bf99b7b4-6bc0-4b3a-b84f-c7946901a3ff_30d2ceb3-4a65-4325-8bb2-39f8d9e426e6.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bfc0cd72-b51d-4bc3-b817-0361ca75ddf2_Bookish Literature.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bfc0cd72-b51d-4bc3-b817-0361ca75ddf2_Bookish Literature.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/bfc0cd72-b51d-4bc3-b817-0361ca75ddf2_Bookish Literature.jpeg",
       "AssetKind": "All",
@@ -720,10 +967,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\bfc0cd72-b51d-4bc3-b817-0361ca75ddf2_Bookish Literature.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Bk.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Bk.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/Bk.jpeg",
       "AssetKind": "All",
@@ -739,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\Bk.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BKS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BKS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/BKS.jpeg",
       "AssetKind": "All",
@@ -758,10 +1005,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\BKS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/blank-profile-picture.png",
       "AssetKind": "All",
@@ -777,10 +1024,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blank-profile-picture.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture1.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture1.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/blank-profile-picture1.png",
       "AssetKind": "All",
@@ -796,10 +1043,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\blank-profile-picture1.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/BS.jpeg",
       "AssetKind": "All",
@@ -815,10 +1062,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\BS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "AssetKind": "All",
@@ -834,10 +1081,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -853,10 +1119,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg",
       "AssetKind": "All",
@@ -872,10 +1138,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg",
       "AssetKind": "All",
@@ -891,10 +1176,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca136f86-b19f-42e8-8a1a-1ac13fea4745_blder.JPG",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca136f86-b19f-42e8-8a1a-1ac13fea4745_blder.JPG",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/ca136f86-b19f-42e8-8a1a-1ac13fea4745_blder.JPG",
       "AssetKind": "All",
@@ -910,10 +1195,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\ca136f86-b19f-42e8-8a1a-1ac13fea4745_blder.JPG"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg",
       "AssetKind": "All",
@@ -929,10 +1214,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg",
       "AssetKind": "All",
@@ -948,10 +1252,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d0677b57-37d0-4bf6-b677-0e8874a27c70_BoundlessNecromancer.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d0677b57-37d0-4bf6-b677-0e8874a27c70_BoundlessNecromancer.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/d0677b57-37d0-4bf6-b677-0e8874a27c70_BoundlessNecromancer.jpg",
       "AssetKind": "All",
@@ -967,10 +1271,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\d0677b57-37d0-4bf6-b677-0e8874a27c70_BoundlessNecromancer.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d88d4caf-a126-4093-bdcf-f254983d338b_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d88d4caf-a126-4093-bdcf-f254983d338b_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/d88d4caf-a126-4093-bdcf-f254983d338b_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "AssetKind": "All",
@@ -986,10 +1290,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\d88d4caf-a126-4093-bdcf-f254983d338b_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d89ffb16-8bce-4125-8292-510a8dc4ecd5_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d89ffb16-8bce-4125-8292-510a8dc4ecd5_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/d89ffb16-8bce-4125-8292-510a8dc4ecd5_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -1005,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\d89ffb16-8bce-4125-8292-510a8dc4ecd5_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\da3e8772-72c0-49b6-a91f-638821fab583_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\da3e8772-72c0-49b6-a91f-638821fab583_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/da3e8772-72c0-49b6-a91f-638821fab583_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -1024,10 +1328,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\da3e8772-72c0-49b6-a91f-638821fab583_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\DeathNote.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\DeathNote.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/DeathNote.jpg",
       "AssetKind": "All",
@@ -1043,10 +1347,29 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\DeathNote.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "BasePath": "_content/BKStore-MVC",
+      "RelativePath": "assets/img/e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\img\\e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp",
+      "SourceId": "BKStore-MVC",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp",
       "AssetKind": "All",
@@ -1062,10 +1385,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e42bc21a-2752-434e-aa70-483535816ed5_BoundlessNecromancer.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e42bc21a-2752-434e-aa70-483535816ed5_BoundlessNecromancer.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/e42bc21a-2752-434e-aa70-483535816ed5_BoundlessNecromancer.jpg",
       "AssetKind": "All",
@@ -1081,10 +1404,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e42bc21a-2752-434e-aa70-483535816ed5_BoundlessNecromancer.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e500c7d0-be52-4450-8099-8c6091b25de6_BoundlessNecromancer.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e500c7d0-be52-4450-8099-8c6091b25de6_BoundlessNecromancer.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/e500c7d0-be52-4450-8099-8c6091b25de6_BoundlessNecromancer.jpg",
       "AssetKind": "All",
@@ -1100,10 +1423,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e500c7d0-be52-4450-8099-8c6091b25de6_BoundlessNecromancer.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e6f27d7d-ca0e-4006-b066-fbe8b8480ba2_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e6f27d7d-ca0e-4006-b066-fbe8b8480ba2_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/e6f27d7d-ca0e-4006-b066-fbe8b8480ba2_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -1119,10 +1442,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\e6f27d7d-ca0e-4006-b066-fbe8b8480ba2_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3725c0b-46b2-4fb6-b685-ad449d53f096_mvc.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3725c0b-46b2-4fb6-b685-ad449d53f096_mvc.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/f3725c0b-46b2-4fb6-b685-ad449d53f096_mvc.jpeg",
       "AssetKind": "All",
@@ -1138,10 +1461,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\f3725c0b-46b2-4fb6-b685-ad449d53f096_mvc.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3bfc488-23d2-4b63-941e-e1c2ec43078d_80 Books Every Person Should Read.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3bfc488-23d2-4b63-941e-e1c2ec43078d_80 Books Every Person Should Read.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/f3bfc488-23d2-4b63-941e-e1c2ec43078d_80 Books Every Person Should Read.jpeg",
       "AssetKind": "All",
@@ -1157,10 +1480,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\f3bfc488-23d2-4b63-941e-e1c2ec43078d_80 Books Every Person Should Read.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f9a348d7-d6e4-429b-b2ad-6bc3d021fbcb_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f9a348d7-d6e4-429b-b2ad-6bc3d021fbcb_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/f9a348d7-d6e4-429b-b2ad-6bc3d021fbcb_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "AssetKind": "All",
@@ -1176,10 +1499,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\f9a348d7-d6e4-429b-b2ad-6bc3d021fbcb_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\fefe922e-d228-48da-80cf-22a1b988844d_Fearness.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\fefe922e-d228-48da-80cf-22a1b988844d_Fearness.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/fefe922e-d228-48da-80cf-22a1b988844d_Fearness.jpg",
       "AssetKind": "All",
@@ -1195,10 +1518,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\fefe922e-d228-48da-80cf-22a1b988844d_Fearness.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Head-First-Design-Patterns-388x500.jpg.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Head-First-Design-Patterns-388x500.jpg.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/Head-First-Design-Patterns-388x500.jpg.png",
       "AssetKind": "All",
@@ -1214,10 +1537,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\Head-First-Design-Patterns-388x500.jpg.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\icon-5359553_1280.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\icon-5359553_1280.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/icon-5359553_1280.png",
       "AssetKind": "All",
@@ -1233,10 +1556,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\icon-5359553_1280.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\magic_cover.webp",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\magic_cover.webp",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/magic_cover.webp",
       "AssetKind": "All",
@@ -1252,10 +1575,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\magic_cover.webp"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Monster.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Monster.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/Monster.jpg",
       "AssetKind": "All",
@@ -1271,10 +1594,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\Monster.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\order.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\order.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/order.png",
       "AssetKind": "All",
@@ -1290,10 +1613,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\order.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\p1.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\p1.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/p1.jpg",
       "AssetKind": "All",
@@ -1309,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\p1.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\pexels-anna-nekrashevich-8534046.jpg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\pexels-anna-nekrashevich-8534046.jpg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/pexels-anna-nekrashevich-8534046.jpg",
       "AssetKind": "All",
@@ -1328,10 +1651,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\pexels-anna-nekrashevich-8534046.jpg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cabin.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cabin.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/portfolio/cabin.png",
       "AssetKind": "All",
@@ -1347,10 +1670,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\cabin.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cake.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cake.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/portfolio/cake.png",
       "AssetKind": "All",
@@ -1366,10 +1689,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\cake.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\circus.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\circus.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/portfolio/circus.png",
       "AssetKind": "All",
@@ -1385,10 +1708,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\circus.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\game.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\game.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/portfolio/game.png",
       "AssetKind": "All",
@@ -1404,10 +1727,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\game.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\safe.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\safe.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/portfolio/safe.png",
       "AssetKind": "All",
@@ -1423,10 +1746,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\safe.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\submarine.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\submarine.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/portfolio/submarine.png",
       "AssetKind": "All",
@@ -1442,10 +1765,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\portfolio\\submarine.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.png",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.png",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/shopping-cart.png",
       "AssetKind": "All",
@@ -1461,10 +1784,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shopping-cart.png"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.svg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.svg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/shopping-cart.svg",
       "AssetKind": "All",
@@ -1480,10 +1803,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\shopping-cart.svg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-empty.svg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-empty.svg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/star-empty.svg",
       "AssetKind": "All",
@@ -1499,10 +1822,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\star-empty.svg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-filled.svg",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-filled.svg",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "assets/img/star-filled.svg",
       "AssetKind": "All",
@@ -1518,10 +1841,10 @@
       "OriginalItemSpec": "wwwroot\\assets\\img\\star-filled.svg"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -1537,10 +1860,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site1.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site1.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "css/site1.css",
       "AssetKind": "All",
@@ -1556,10 +1879,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site1.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\styles.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\styles.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "css/styles.css",
       "AssetKind": "All",
@@ -1575,10 +1898,10 @@
       "OriginalItemSpec": "wwwroot\\css\\styles.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\favicon.ico",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -1594,10 +1917,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\scripts.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\scripts.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "js/scripts.js",
       "AssetKind": "All",
@@ -1613,10 +1936,10 @@
       "OriginalItemSpec": "wwwroot\\js\\scripts.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\site.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -1632,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -1651,10 +1974,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -1670,10 +1993,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -1689,10 +2012,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -1708,10 +2031,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css",
       "AssetKind": "All",
@@ -1727,10 +2050,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.css.map",
       "AssetKind": "All",
@@ -1746,10 +2069,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css",
       "AssetKind": "All",
@@ -1765,10 +2088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.rtl.min.css.map",
       "AssetKind": "All",
@@ -1784,10 +2107,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -1803,10 +2126,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -1822,10 +2145,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -1841,10 +2164,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -1860,10 +2183,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css",
       "AssetKind": "All",
@@ -1879,10 +2202,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.css.map",
       "AssetKind": "All",
@@ -1898,10 +2221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css",
       "AssetKind": "All",
@@ -1917,10 +2240,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.rtl.min.css.map",
       "AssetKind": "All",
@@ -1936,10 +2259,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -1955,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -1974,10 +2297,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -1993,10 +2316,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -2012,10 +2335,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css",
       "AssetKind": "All",
@@ -2031,10 +2354,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.css.map",
       "AssetKind": "All",
@@ -2050,10 +2373,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css",
       "AssetKind": "All",
@@ -2069,10 +2392,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.rtl.min.css.map",
       "AssetKind": "All",
@@ -2088,10 +2411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css",
       "AssetKind": "All",
@@ -2107,10 +2430,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.css.map",
       "AssetKind": "All",
@@ -2126,10 +2449,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css",
       "AssetKind": "All",
@@ -2145,10 +2468,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.min.css.map",
       "AssetKind": "All",
@@ -2164,10 +2487,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css",
       "AssetKind": "All",
@@ -2183,10 +2506,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.css.map",
       "AssetKind": "All",
@@ -2202,10 +2525,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css",
       "AssetKind": "All",
@@ -2221,10 +2544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-utilities.rtl.min.css.map",
       "AssetKind": "All",
@@ -2240,10 +2563,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -2259,10 +2582,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -2278,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -2297,10 +2620,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -2316,10 +2639,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js",
       "AssetKind": "All",
@@ -2335,10 +2658,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.js.map",
       "AssetKind": "All",
@@ -2354,10 +2677,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js",
       "AssetKind": "All",
@@ -2373,10 +2696,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.esm.min.js.map",
       "AssetKind": "All",
@@ -2392,10 +2715,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -2411,10 +2734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -2430,10 +2753,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -2449,10 +2772,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -2468,10 +2791,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -2487,10 +2810,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2506,10 +2829,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2525,10 +2848,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2544,10 +2867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2563,10 +2886,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2582,10 +2905,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2601,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2620,10 +2943,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2639,10 +2962,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2658,10 +2981,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -2677,10 +3000,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -2696,10 +3019,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "BKStore-MVC",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\",
       "BasePath": "_content/BKStore-MVC",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",

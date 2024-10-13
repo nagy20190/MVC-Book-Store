@@ -73,7 +73,6 @@ namespace BKStore_MVC.Controllers
             orderDetailVM.CustomerAddress = customerRepository.GetByID(orderRepository.GetByID(OrderId).CustomerID ?? 0).Address;
             orderDetailVM.Governorate = governorateRepository.GetByID(customerRepository.GetByID(orderRepository.GetByID(OrderId).CustomerID ?? 0).GovernorateID ?? 0).Name;
             orderDetailVM.CustomerID = orderRepository.GetByID(OrderId).CustomerID;
-            orderDetailVM.Nationalnumber = customerRepository.GetByID(orderRepository.GetByID(OrderId).CustomerID ?? 0).Nationalnumber;
             orderDetailVM.OrderID = OrderId;
             orderDetailVM.PaymentFees = shippingMethodRepository.GetByID(1).PaymentFees;
             return View("DetailedOrder", orderDetailVM);
@@ -124,7 +123,6 @@ namespace BKStore_MVC.Controllers
             orderDetailVM.CustomerAddress = customer.Address;
             orderDetailVM.Governorate = governorate.Name;
             orderDetailVM.CustomerID = order.CustomerID;
-            orderDetailVM.Nationalnumber=customer.Nationalnumber;
 
             return View("DetailedOrder", orderDetailVM);
         }

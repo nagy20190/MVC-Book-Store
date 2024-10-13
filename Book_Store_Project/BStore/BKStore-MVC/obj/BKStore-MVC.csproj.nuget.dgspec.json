@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj": {}
+    "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj": {
+    "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj",
+        "projectUniqueName": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj",
         "projectName": "BKStore-MVC",
-        "projectPath": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj",
+        "projectPath": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\BKStore-MVC.csproj",
         "packagesPath": "C:\\Users\\MG\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\",
+        "outputPath": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\MG\\AppData\\Roaming\\NuGet\\NuGet.Config",

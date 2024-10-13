@@ -1,567 +1,635 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BKStore-MVC.bundle.scp.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\BKStore-MVC.bundle.scp.css",
       "PackagePath": "staticwebassets\\BKStore-MVC.bundle.scp.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\favicon.ico",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\favicon.ico",
       "PackagePath": "staticwebassets\\assets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\00b1521e-37bc-487a-9e96-d6cf4c2f64ba_BoundlessNecromancer.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png",
+      "PackagePath": "staticwebassets\\assets\\img\\010d2511-1ca2-429f-980a-600d2bed2f5b_Head-First-Design-Patterns-388x500.jpg.png"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\04f5f906-63e2-407d-a9a2-4e36ff7e71c0_Libro Brave New World - Aldous Huxley.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\07a1cd66-eae6-46fc-8df4-136cea71a3d2_978-1-4842-7147-6.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG",
       "PackagePath": "staticwebassets\\assets\\img\\08b4add3-f10f-4338-9d39-6df6a3eccac2_certification.JPG"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\08f66ac4-c39d-4fbb-9848-e95091fa5ed4_one peace wallpaper iphone.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1298d153-7752-4aad-9855-0fcfad93669f_916dc67bca7e41b330826fa18933bd33e6e1431b-521x667.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\19f2d266-8135-4e86-bb5c-d7ccf99bd90e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\1b9ed83a-de9c-4dc8-94cf-5b98f86df92f_61YKrMbrdGL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\1bd27eab-b189-40b3-abe5-2bd27a7a59af_Top 15 Great Science Fiction Books - Listverse.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png",
+      "PackagePath": "staticwebassets\\assets\\img\\20875d8f-0fc7-4947-831b-5a10eaaa8419_clean.png"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\22497c25-15c5-46c6-92cd-e7b59d5486f0_Trends International Fruits Basket.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\309cfa6b-ead0-4e19-967a-7685a76cf615_Trends International Fruits Basket - Teaser Protagonists Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\309cfa6b-ead0-4e19-967a-7685a76cf615_Trends International Fruits Basket - Teaser Protagonists Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\309cfa6b-ead0-4e19-967a-7685a76cf615_Trends International Fruits Basket - Teaser Protagonists Wall Poster, 22_375_ x 34_, Premium Unframed Version.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\330878e4-5389-4fec-b879-299138426121_THE LORD OF THE RINGS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\330878e4-5389-4fec-b879-299138426121_THE LORD OF THE RINGS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\330878e4-5389-4fec-b879-299138426121_THE LORD OF THE RINGS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3394a317-372a-4132-a963-897f99b04ff0_nn.webp",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3394a317-372a-4132-a963-897f99b04ff0_nn.webp",
       "PackagePath": "staticwebassets\\assets\\img\\3394a317-372a-4132-a963-897f99b04ff0_nn.webp"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3f1a2e7f-5d46-457a-918a-3b6e224e5578_BoundlessNecromancer.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\3f1a2e7f-5d46-457a-918a-3b6e224e5578_BoundlessNecromancer.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\3f1a2e7f-5d46-457a-918a-3b6e224e5578_BoundlessNecromancer.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\437d87f8-8d80-4834-8e32-9189df0535e5_f7b07fa8-dff2-475b-95e7-c690d7f09c33.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\437d87f8-8d80-4834-8e32-9189df0535e5_f7b07fa8-dff2-475b-95e7-c690d7f09c33.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\437d87f8-8d80-4834-8e32-9189df0535e5_f7b07fa8-dff2-475b-95e7-c690d7f09c33.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\44a02df6-f11c-459d-a9af-50bec2a65362_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\44a02df6-f11c-459d-a9af-50bec2a65362_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\44a02df6-f11c-459d-a9af-50bec2a65362_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\4b11bd9e-ba5c-490e-b9ea-b966beaa7bdb_magic_cover.webp",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\4b11bd9e-ba5c-490e-b9ea-b966beaa7bdb_magic_cover.webp",
       "PackagePath": "staticwebassets\\assets\\img\\4b11bd9e-ba5c-490e-b9ea-b966beaa7bdb_magic_cover.webp"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\52344385-8893-4ff5-99b5-1c0dba960251_Moby Dick or The Whale by Herman Melville.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\52344385-8893-4ff5-99b5-1c0dba960251_Moby Dick or The Whale by Herman Melville.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\52344385-8893-4ff5-99b5-1c0dba960251_Moby Dick or The Whale by Herman Melville.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\561fa308-ae32-41dd-b34d-2f685aa55c64_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\57ea96fb-1b68-491e-936c-f35f67bd27cf_15873837885e9d8dec3a109_s1000.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\5fdd7282-c017-4d86-91cb-ceb30805df8f_61L7kkV5JgL._AC_UF894,1000_QL80_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\650c4199-afd2-4ad3-baa2-142bcb9cf8db_THE LORD OF THE RINGS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\65dabb12-d068-4d0f-ab30-34134b182aca_War And Peace.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\65dabb12-d068-4d0f-ab30-34134b182aca_War And Peace.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\65dabb12-d068-4d0f-ab30-34134b182aca_War And Peace.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\666603.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\666603.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\666603.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\691773c3-6e5c-49e2-80f8-879eeb09648d_◜\uD83D\uDC90◞.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\691773c3-6e5c-49e2-80f8-879eeb09648d_◜\uD83D\uDC90◞.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\691773c3-6e5c-49e2-80f8-879eeb09648d_◜\uD83D\uDC90◞.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\6a2e03bb-3bd3-41c0-8869-64fc48fa0549_711AW7I8e8L._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp",
       "PackagePath": "staticwebassets\\assets\\img\\6a3fab84-a788-45d4-8af9-b8288fcd9a3b_magic_cover.webp"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\6a5f1e4d-6c35-4993-a842-3f85aee0d4c9_81dHZNap86L._UX250_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\6c6a3e8c-b9f9-41f6-b7b6-8ac962f16e0e_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\70b02380-d4b8-4f33-846d-4c76d0186334_الطوفان-1.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\728b34a1-b21e-4164-8758-87fac4a5367f_Fearness.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\7f89ed24-b183-4466-b0f3-3390c8adb571_1984 George Orwell - Book Cover.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\7f89ed24-b183-4466-b0f3-3390c8adb571_1984 George Orwell - Book Cover.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\7f89ed24-b183-4466-b0f3-3390c8adb571_1984 George Orwell - Book Cover.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\83983710-26d9-46da-83bf-dfd8e620a02f_3aa9c6bb-d5b9-47b4-8de5-a27f9fd7141c.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\83983710-26d9-46da-83bf-dfd8e620a02f_3aa9c6bb-d5b9-47b4-8de5-a27f9fd7141c.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\83983710-26d9-46da-83bf-dfd8e620a02f_3aa9c6bb-d5b9-47b4-8de5-a27f9fd7141c.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\8d722d36-16c0-40ca-807e-d045c59f7ad9_Fearness.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\8d722d36-16c0-40ca-807e-d045c59f7ad9_Fearness.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\8d722d36-16c0-40ca-807e-d045c59f7ad9_Fearness.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\95498451-9a8f-4264-842c-db19c21c8ffa_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BBB.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BBB.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\BBB.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BKS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BKS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\BKS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\BS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BacKB.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\BacKB.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\BacKB.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Bk.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Bk.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\Bk.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\DeathNote.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\DeathNote.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\DeathNote.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Head-First-Design-Patterns-388x500.jpg.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Head-First-Design-Patterns-388x500.jpg.png",
       "PackagePath": "staticwebassets\\assets\\img\\Head-First-Design-Patterns-388x500.jpg.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Monster.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\Monster.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\Monster.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\aa369781-b214-450c-b858-22fc47c9eb55_81hveVIYkrL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\aad086ec-8323-4783-ba4e-082a09a02be1_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\avataaars.svg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\avataaars.svg",
       "PackagePath": "staticwebassets\\assets\\img\\avataaars.svg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\background.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png",
+      "PackagePath": "staticwebassets\\assets\\img\\b0cb01c4-31e7-4d6b-9f19-e6a08e17f24d_Screenshot 2024-10-14 at 02-05-54 clean code book - Google Search.png"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\b460510e-8eb6-4ea3-9d64-312e31fbbe3d_s.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\background.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\background.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bf99b7b4-6bc0-4b3a-b84f-c7946901a3ff_30d2ceb3-4a65-4325-8bb2-39f8d9e426e6.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bf99b7b4-6bc0-4b3a-b84f-c7946901a3ff_30d2ceb3-4a65-4325-8bb2-39f8d9e426e6.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\bf99b7b4-6bc0-4b3a-b84f-c7946901a3ff_30d2ceb3-4a65-4325-8bb2-39f8d9e426e6.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bfc0cd72-b51d-4bc3-b817-0361ca75ddf2_Bookish Literature.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\bfc0cd72-b51d-4bc3-b817-0361ca75ddf2_Bookish Literature.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\bfc0cd72-b51d-4bc3-b817-0361ca75ddf2_Bookish Literature.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture.png",
       "PackagePath": "staticwebassets\\assets\\img\\blank-profile-picture.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture1.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\blank-profile-picture1.png",
       "PackagePath": "staticwebassets\\assets\\img\\blank-profile-picture1.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\c001de0c-26f8-44be-9323-52c5c9024265_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp",
+      "PackagePath": "staticwebassets\\assets\\img\\c1a67a57-82e3-4723-bdb5-45fb075703a6_clean-code-buy-online-OnlineBooksOutlet_large.webp"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\c315cbe4-b59e-4658-9cc6-38c866509574_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\c5e1fff3-18ad-49ba-b566-47d5dc223374_Pin on no.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg",
+      "PackagePath": "staticwebassets\\assets\\img\\c71fd76f-08e9-4742-a0bb-70dd032d0323_imqages.jpeg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\ca0f440c-7464-443a-a897-030c79d899ba_Favorite Books to Read Aloud to Your Kids.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca136f86-b19f-42e8-8a1a-1ac13fea4745_blder.JPG",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\ca136f86-b19f-42e8-8a1a-1ac13fea4745_blder.JPG",
       "PackagePath": "staticwebassets\\assets\\img\\ca136f86-b19f-42e8-8a1a-1ac13fea4745_blder.JPG"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\cc60c248-7c7a-43f4-b61d-42fba3711266_Fearness.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png",
+      "PackagePath": "staticwebassets\\assets\\img\\cd4bd289-570c-479c-bcce-c65ee46d6671_ooA.png"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\cf4ca54b-1238-4f77-85bd-4d59e7720712_Fearness.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d0677b57-37d0-4bf6-b677-0e8874a27c70_BoundlessNecromancer.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d0677b57-37d0-4bf6-b677-0e8874a27c70_BoundlessNecromancer.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\d0677b57-37d0-4bf6-b677-0e8874a27c70_BoundlessNecromancer.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d88d4caf-a126-4093-bdcf-f254983d338b_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d88d4caf-a126-4093-bdcf-f254983d338b_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\d88d4caf-a126-4093-bdcf-f254983d338b_WhatsApp Image 2024-04-25 at 14.38.01_e1509e5a.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d89ffb16-8bce-4125-8292-510a8dc4ecd5_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\d89ffb16-8bce-4125-8292-510a8dc4ecd5_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\d89ffb16-8bce-4125-8292-510a8dc4ecd5_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\da3e8772-72c0-49b6-a91f-638821fab583_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\da3e8772-72c0-49b6-a91f-638821fab583_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\da3e8772-72c0-49b6-a91f-638821fab583_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg",
+      "PackagePath": "staticwebassets\\assets\\img\\e0014f26-e075-4976-b3ad-7a720513b3b9_81BE7eeKzAL._AC_UF1000,1000_QL80_.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp",
       "PackagePath": "staticwebassets\\assets\\img\\e1dbb89e-5b15-4b42-9cf7-c9ae7523ab58_magic_cover.webp"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e42bc21a-2752-434e-aa70-483535816ed5_BoundlessNecromancer.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e42bc21a-2752-434e-aa70-483535816ed5_BoundlessNecromancer.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\e42bc21a-2752-434e-aa70-483535816ed5_BoundlessNecromancer.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e500c7d0-be52-4450-8099-8c6091b25de6_BoundlessNecromancer.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e500c7d0-be52-4450-8099-8c6091b25de6_BoundlessNecromancer.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\e500c7d0-be52-4450-8099-8c6091b25de6_BoundlessNecromancer.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e6f27d7d-ca0e-4006-b066-fbe8b8480ba2_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\e6f27d7d-ca0e-4006-b066-fbe8b8480ba2_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\e6f27d7d-ca0e-4006-b066-fbe8b8480ba2_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3725c0b-46b2-4fb6-b685-ad449d53f096_mvc.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3725c0b-46b2-4fb6-b685-ad449d53f096_mvc.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\f3725c0b-46b2-4fb6-b685-ad449d53f096_mvc.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3bfc488-23d2-4b63-941e-e1c2ec43078d_80 Books Every Person Should Read.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f3bfc488-23d2-4b63-941e-e1c2ec43078d_80 Books Every Person Should Read.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\f3bfc488-23d2-4b63-941e-e1c2ec43078d_80 Books Every Person Should Read.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f9a348d7-d6e4-429b-b2ad-6bc3d021fbcb_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\f9a348d7-d6e4-429b-b2ad-6bc3d021fbcb_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg",
       "PackagePath": "staticwebassets\\assets\\img\\f9a348d7-d6e4-429b-b2ad-6bc3d021fbcb_THE LORD OF THE RINGS_ THE FELLOWSHIP OF THE RING, RUIZ BURGOS.jpeg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\fefe922e-d228-48da-80cf-22a1b988844d_Fearness.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\fefe922e-d228-48da-80cf-22a1b988844d_Fearness.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\fefe922e-d228-48da-80cf-22a1b988844d_Fearness.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\icon-5359553_1280.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\icon-5359553_1280.png",
       "PackagePath": "staticwebassets\\assets\\img\\icon-5359553_1280.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\magic_cover.webp",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\magic_cover.webp",
       "PackagePath": "staticwebassets\\assets\\img\\magic_cover.webp"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\order.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\order.png",
       "PackagePath": "staticwebassets\\assets\\img\\order.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\p1.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\p1.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\p1.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\pexels-anna-nekrashevich-8534046.jpg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\pexels-anna-nekrashevich-8534046.jpg",
       "PackagePath": "staticwebassets\\assets\\img\\pexels-anna-nekrashevich-8534046.jpg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cabin.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cabin.png",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\cabin.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cake.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\cake.png",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\cake.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\circus.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\circus.png",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\circus.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\game.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\game.png",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\game.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\safe.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\safe.png",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\safe.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\submarine.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\portfolio\\submarine.png",
       "PackagePath": "staticwebassets\\assets\\img\\portfolio\\submarine.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.png",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.png",
       "PackagePath": "staticwebassets\\assets\\img\\shopping-cart.png"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.svg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\shopping-cart.svg",
       "PackagePath": "staticwebassets\\assets\\img\\shopping-cart.svg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-empty.svg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-empty.svg",
       "PackagePath": "staticwebassets\\assets\\img\\star-empty.svg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-filled.svg",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\assets\\img\\star-filled.svg",
       "PackagePath": "staticwebassets\\assets\\img\\star-filled.svg"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site1.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\site1.css",
       "PackagePath": "staticwebassets\\css\\site1.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\styles.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\css\\styles.css",
       "PackagePath": "staticwebassets\\css\\styles.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\favicon.ico",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\scripts.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\scripts.js",
       "PackagePath": "staticwebassets\\js\\scripts.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\site.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "C:\\Users\\MG\\Desktop\\DEPI_ProjectFinal\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
