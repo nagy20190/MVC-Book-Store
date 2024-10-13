@@ -1,0 +1,146 @@
+﻿@model List<BKStore_MVC.ViewModel.BookCartItem>
+@{
+    ViewData["Title"] = "Cart";
+}
+<style>
+    .my-order-btn {
+        margin-left: 10px;
+        text-decoration: none;
+        color: white;
+        background-color: #007bff;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+        .my-order-btn:hover {
+            background-color: #0056b3;
+        }
+
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-md-8">
+            <h3>Your Cart</h3>
+            <table class="table">
+                <thead>
+                    <tr>
+                        <th>Product</th>
+                        <th>Price</th>
+                        <th>Quantity</th>
+                        <th>Subtotal</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody>
+                    @foreach (var item in Model)
+                    {
+                        if(item.StockQuantity>0){
+                        <tr id="cart-item-@item.BookId">
+                            <td>
+                                <img src="~/assets/img/@item.ImagePath" class="img-thumbnail" alt="@item.Title" style="width: 100px;">
+                                <span>@item.Title</span>
+                            </td>
+                            <td id="price-@item.BookId">@item.Price EGP</td>
+                            <td>
+                                <input type="number" value="@item.Quantity" min="1" max="@item.StockQuantity" class="form-control w-50" readonly>                            </td>
+                            <td id="subtotal-@item.BookId">@(@item.Price * @item.Quantity) EGP</td>
+                            <td>
+                                <button class="btn btn-danger" onclick="removeFromCart(@item.BookId)">Remove</button>
+                            </td>
+                        </tr>
+                        }
+                        else{
+                            <tr id="cart-item-@item.BookId">
+                                <td>
+                                    <img src="~/assets/img/@item.ImagePath" class="img-thumbnail" alt="@item.Title" style="width: 100px;">
+                                    <span>@item.Title</span>
+                                </td>
+                                <td id="price-@item.BookId">@item.Price EGP</td>
+                                <td>
+                                    <input type="number" value="@item.Quantity" min="0" max="@item.StockQuantity" class="form-control w-50" readonly>
+                                    <div><p><strong style="color:red">Out Of Stock</strong></p></div>
+                                </td>
+                                <td id="subtotal-@item.BookId">@(@item.Price * @item.Quantity) EGP</td>
+                                <td>
+                                    <button class="btn btn-danger" onclick="removeFromCart(@item.BookId)">Remove</button>
+                                </td>
+                            </tr>
+                        }
+                    }
+                </tbody>
+            </table>
+        </div>
+        <div class="col-md-4">
+            <h3>Cart Totals</h3>
+            <ul class="list-group">
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Subtotal</span>
+                    <span id="cart-subtotal">@Model.Where(item => item.StockQuantity>=item.Quantity).Sum(item => item.Price * item.Quantity) EGP</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <span>Shipping (Cairo & Giza)</span>
+                    <span>@ViewData["PaymentFees"] EGP</span>
+                </li>
+                <li class="list-group-item d-flex justify-content-between align-items-center">
+                    <strong>Total</strong>
+                    <strong id="cart-total">@(@Model.Where(item => item.StockQuantity >= item.Quantity).Sum(item => item.Price * item.Quantity) + ((double)ViewData["PaymentFees"])) EGP</strong>
+                </li>
+            </ul>
+            @if (Model.Where(item => item.StockQuantity >= item.Quantity).Sum(item => item.Price * item.Quantity)==0){
+
+            
+                <a href="javascript:void(0);" onclick="proceedToCheckout()" class="btn btn-primary btn-block mt-3" style="pointer-events: none; opacity: 0.5;">Proceed to Checkout</a>
+
+
+            }
+            else
+            {
+                <a href="javascript:void(0);" onclick="proceedToCheckout()" class="btn btn-primary btn-block mt-3">Proceed to Checkout</a>
+
+            }            
+
+              </div>
+        
+    </div>
+    <div >
+        <a href="/Order/GetAllByCustomerID/" class="btn btn-primary my-order-btn ">My Order</a>
+    </div>
+</div>
+<script>
+    function removeFromCart(bookId) {
+        $.ajax({
+            url: '@Url.Action("RemoveFromCart", "Book")',
+            type: 'POST',
+            data: { bookId: bookId },
+            success: function (response) {
+                // Remove the item from the cart display
+                document.getElementById('cart-item-' + bookId).remove();
+
+                // Update the cart totals
+                updateCartTotals(response.newSubtotal, response.newTotal);
+            },
+            error: function (xhr, status, error) {
+                console.error('Error removing item from cart:', error);
+            }
+        });
+    }
+
+    function updateCartTotals(newSubtotal, newTotal) {
+        document.getElementById('cart-subtotal').innerText = newSubtotal + ' EGP';
+        document.getElementById('cart-total').innerText = newTotal + ' EGP';
+    }
+
+    function proceedToCheckout() {
+        var totalAmount = parseFloat(document.getElementById('cart-total').innerText.replace(' EGP', ''));
+
+        if (isNaN(totalAmount) || totalAmount <= 0) {
+            console.error('Total amount is invalid:', totalAmount);
+            return;
+        }
+
+        var url = '@Url.Action("AddCustomer", "Customer")' + '?TotalAmount=' + totalAmount;
+        window.location.href = url;
+    }
+</script>

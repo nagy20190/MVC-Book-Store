@@ -1,0 +1,70 @@
+﻿@model IEnumerable<BKStore_MVC.ViewModel.UsersInfoVM>
+
+@{
+    ViewData["Title"] = "GetAll";
+}
+
+<h1>GetAll</h1>
+
+<p>
+    <a asp-controller="Account" asp-action="AddAdmin">Create New</a>
+</p>
+<table class="table" style="background-color: white;">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsLocked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Role)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Phone)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsLocked)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Role)
+            </td>
+            <td>
+                    @if (item.IsLocked == false)
+                    {
+                        <form asp-action="LockAccount" asp-controller="User" method="post">
+                            <input type="hidden" name="ID" value="@item.UserID" />
+                            <button type="submit">Lock User</button>
+                        </form>
+                    }
+                    else
+                    {
+                        <form asp-action="UnLockAccount" asp-controller="User" method="post">
+                            <input type="hidden" name="ID" value="@item.UserID" />
+                            <button type="submit">UnLock User</button>
+                        </form>
+                    }
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

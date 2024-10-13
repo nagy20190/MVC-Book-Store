@@ -1,0 +1,66 @@
+﻿@model IEnumerable<BKStore_MVC.Models.Book>
+
+@{
+    ViewData["Title"] = "GetAllToAdmin";
+}
+
+<h1>GetAllToAdmin</h1>
+
+<p>
+    <a asp-action="New">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.BookID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Title)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.AuthorName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Price)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.PublisherName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.StockQuantity)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.BookID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Title)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AuthorName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Price)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.PublisherName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.StockQuantity)
+            </td>
+
+            <td>
+                @Html.ActionLink("Edit", "Edit", new { id=item.BookID }) |
+                    @Html.ActionLink("Details", "DetailedBookForAdmin", new { id=item.BookID  }) |
+                    @Html.ActionLink("Delete", "Delete", new {  id=item.BookID  })
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

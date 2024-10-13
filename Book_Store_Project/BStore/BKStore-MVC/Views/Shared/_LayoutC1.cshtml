@@ -1,0 +1,246 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BKStore_MVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site1.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <style>
+        .wishlist-icon svg path {
+            transition: fill 0.3s;
+        }
+
+        .wishlist-icon:hover svg path {
+            fill: red; /* Change to the desired fill color on hover */
+        }
+        .sidebar {
+            width: 250px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            position: fixed;
+            height: 100%;
+            left: -250px; /* Hide sidebar by default */
+            transition: left 0.3s;
+        }
+
+            .sidebar a {
+                display: block;
+                color: #333;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+                .sidebar a:hover {
+                    background-color: #ddd;
+                }
+
+        .main-content {
+            margin-left: 20px; /* Adjust based on sidebar width */
+            padding: 20px;
+        }
+
+        .open-sidebar {
+            left: 0; /* Show sidebar */
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            width: 40%; /* Make search bar larger */
+            margin-left: -50px; /* Increase length from the left side */
+        }
+
+            .search-bar input {
+                flex: 1;
+                padding: 5px; /* Increase padding for larger input */
+                margin-right: 200px;
+            }
+
+            .search-bar .icon {
+                margin-left: 10px;
+            }
+
+        .auth-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+            .auth-buttons a {
+                margin-left: 10px;
+                text-decoration: none;
+                color: #333;
+            }
+
+                .auth-buttons a:hover {
+                    text-decoration: underline;
+                }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            z-index: 1000;
+            width: 100%;
+        }
+
+            .dropdown-menu.show {
+                display: block;
+            }
+
+        .dropdown-item {
+            padding: 10px;
+            cursor: pointer;
+        }
+
+            .dropdown-item:hover {
+                background-color: #f1f1f1;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="Index">Books</a>
+                        </li>
+                        @if (User.IsInRole("Admin"))
+                        {
+                            @* <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">AddAdmin</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">AddRole</a>
+                            </li> *@
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#" onclick="toggleSidebar()">Settings</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut">Sign Out</a>
+                        </li>
+                    </ul>
+                    <div class="search-bar">
+                        <form id="searchForm" asp-action="SearchByName" asp-controller="Book" method="get" class="form-inline">
+                            <input id="searchInput" type="text" name="name" class="form-control" placeholder="Search for books" autocomplete="off" />
+                            <div id="searchDropdown" class="dropdown-menu"></div>
+                        </form>
+                    </div>
+                    
+                    <div class="auth-buttons">
+                        <a href="#" class="icon"><i class="fa fa-heart"></i></a>
+                        <a href="#" class="icon"><i class="fa fa-user"></i></a>
+                        <a href="/Book/ShowCart" class="icon">
+                            <img src="~/assets/img/shopping-cart.png" alt="Shopping Cart" style="width: 24px; height: 24px;" />
+                        </a>
+                        <a href="@Url.Action("Login", "Account")">Login</a> /
+                        <a href="@Url.Action("Register", "Account")">Register</a>
+                        <a href="/User/MyAccount/">
+                            <img src="~/assets/img/icon-5359553_1280.png" alt="My Account" style="width: 50px; height: 50px" />
+                        </a>
+
+                 </div>
+                </div>
+            </div>
+
+        </nav>
+    </header>
+    <div class="sidebar" id="sidebar">
+        <h2>Settings</h2>
+        <a href="#home">Home</a>
+        <a href="/Book/GetAllToAdmin/">Book</a>
+        <a href="/Customer/GetAll/">Customer</a>
+        <a href="/Delivery/GetAll/">Delivery</a>
+        <a href="/Home/Users/">Users</a>
+        <a href="/Order/GetAll">Order</a>
+        <a href="/Account/GetAll">Users</a>
+    </div>
+    <div class="main-content">
+        @RenderBody()
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © 2024 - BKStore_MVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("open-sidebar");
+        }
+
+        // Auto-submit search form on input
+        document.getElementById('searchInput').addEventListener('input', function () {
+            var query = this.value;
+            if (query.length > 2) {
+                $.ajax({
+                    url: '@Url.Action("SearchBooks", "Book")',
+                    type: 'GET',
+                    data: { name: query },
+                    success: function (data) {
+                        var dropdown = document.getElementById('searchDropdown');
+                        dropdown.innerHTML = '';
+                        if (data.length > 0) {
+                            data.forEach(function (book) {
+                                var item = document.createElement('div');
+                                item.className = 'dropdown-item';
+                                item.textContent = book.title;
+                                item.onclick = function () {
+                                    window.location.href = '/Book/Details/' + book.id;
+                                };
+                                dropdown.appendChild(item);
+                            });
+                            dropdown.classList.add('show');
+                        } else {
+                            dropdown.classList.remove('show');
+                        }
+                    }
+                });
+            } else {
+                document.getElementById('searchDropdown').classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>
+
+
+@* 
+/*
+        .my-order-btn {
+            margin-left: 10px;
+            text-decoration: none;
+            color: white;
+            background-color: #007bff;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+            .my-order-btn:hover {
+                background-color: #0056b3;
+            }
+                         <a href="/Order/DetailedOrderForUser/" class="btn btn-primary my-order-btn ">My Order</a>
+    
+ */ *@

@@ -1,0 +1,67 @@
+﻿@model List<Book>
+
+@{
+    ViewData["Title"] = "Wishlist";
+}
+
+<h2>Your Products Wishlist</h2>
+
+@if (Model != null && Model.Any())
+{
+    <div class="row">
+        @foreach (var book in Model)
+        {
+            <div class="col-md-4">
+                <div class="card mb-4" data-book-id="@book.BookID">
+                    <img src="~/assets/img/@book.ImagePath" class="card-img-top book-image" alt="@book.Title" data-url="@Url.Action("Details", "Book", new { Bookid = book.BookID })">
+                    <div class="card-body">
+                        <h5 class="card-title">@book.Title</h5>
+                        <p class="card-text">Author: @book.AuthorName</p>
+                        <p class="card-text">Price: <strong>@book.Price</strong></p>
+                        <button class="btn btn-danger" onclick="removeFromWishlist(@book.BookID)">Remove</button>
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+}
+else
+{
+    <p>Your wishlist is empty.</p>
+}
+
+@section Scripts {
+    <script>
+        function removeFromWishlist(bookId) {
+            $.ajax({
+                url: '@Url.Action("RemoveFromWishlist", "Book")',
+                type: 'POST',
+                data: { bookId: bookId },
+                success: function (result) {
+                    location.reload(); // Reload the page to reflect the changes
+                }
+            });
+        }
+    </script>
+}
+<style>
+    .book-image {
+        width: 100%; /* Make the image take the full width of the card */
+        height: 400px; /* Adjust the height to make the image larger */
+        object-fit: fill; /* Ensure the image covers the entire area without distortion */
+    }
+
+    .card {
+        height: 530px; /* Adjust the height to make the card taller */
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    .card-body {
+        flex-grow: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+</style>

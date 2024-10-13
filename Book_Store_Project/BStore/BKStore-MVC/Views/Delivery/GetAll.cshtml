@@ -1,0 +1,81 @@
+﻿@model IEnumerable<BKStore_MVC.ViewModel.DeliveryVM>
+
+@{
+    ViewData["Title"] = "GetAll";
+}
+
+<h1>GetAll</h1>
+
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.UserID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NationalID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.UserName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FullName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsLocked)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Email)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Phone)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.IsLocked)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.UserID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.NationalID)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.UserName)
+                </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FullName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.IsLocked)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Email)
+            </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Phone)
+                </td>
+            <td>
+                @if(item.IsLocked==false){
+                    <form asp-action="LockAccount" method="post">
+                        <input type="hidden" name="ID" value="@item.UserID" />
+                        <button type="submit">Lock User</button>
+                    </form>
+                }
+                else{
+                        <form asp-action="UnLockAccount" method="post">
+                        <input type="hidden" name="ID" value="@item.UserID" />
+                        <button type="submit">UnLock User</button>
+                    </form>
+                }
+                </td>
+        </tr>
+}
+    </tbody>
+</table>

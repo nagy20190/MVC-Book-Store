@@ -1,0 +1,50 @@
+﻿@model List<Category>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<a href="/Category/New" class="btn btn-success"> New </a>
+
+<table class="table table-bordered">
+    <thead>
+        <tr>
+          <th> ID </th>
+          <th> Name </th>
+            <th> Description </th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CategoryID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Name)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Description)
+                </td>
+
+                <td>
+                    <a asp-controller="Category" asp-action="Details" asp-route-id="@item.CategoryID"> Details </a>
+                </td>
+
+                <td>
+                    <a asp-controller="Category" asp-action="Edit" asp-route-id="@item.CategoryID"> Edit </a>
+                </td>
+
+
+                <td>
+                    <a asp-controller="Category" asp-action="Delete" asp-route-id="@item.CategoryID"> Delete </a>
+                </td>
+
+
+            </tr>
+        }
+    </tbody>
+</table>

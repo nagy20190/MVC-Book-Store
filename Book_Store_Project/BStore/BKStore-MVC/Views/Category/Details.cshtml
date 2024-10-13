@@ -1,0 +1,20 @@
+﻿@model BKStore_MVC.ViewModel.BookWithCategoryVM
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h2>@Model.CategoryName</h2>
+
+<ul class="list-group">
+    @foreach (var book in Model.books)
+    {
+        <li class="list-group-item">
+            <h5>@book.Title</h5>
+            <p>Author: @book.AuthorName</p>
+            <p>Price: @book.Price</p>
+        </li>
+    }
+</ul>
+
+

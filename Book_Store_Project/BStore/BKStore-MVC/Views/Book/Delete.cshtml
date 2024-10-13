@@ -1,0 +1,22 @@
+﻿@model Book
+
+<h2>Delete Book</h2>
+
+<div>
+    <h4>Are you sure you want to delete this book?</h4>
+    <div>
+        <h5>@Model.Title</h5>
+        <p>Author: @Model.AuthorName</p>
+        <p>Price: @Model.Price</p>
+    </div>
+</div>
+
+<form asp-controller="Book" asp-action="DeleteConfirmed" method="post" asp-route-id="@Model.BookID">
+    <input type="hidden" asp-for="BookID" />
+    <input type="submit" value="Delete" class="btn btn-danger" />
+    <a asp-action="Index" class="btn btn-secondary">Cancel</a>
+</form>
+
+    
+
+

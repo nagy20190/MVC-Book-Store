@@ -1,0 +1,368 @@
+﻿@model BKStore_MVC.ViewModel.BookCategVM
+@using X.PagedList.Mvc.Core
+@using X.PagedList
+@{
+    ViewData["Title"] = "Index";
+    Layout = "_LayoutC";
+}
+@* Temp Data Info  *@
+@if (TempData["OrderSuccessMessage"] != null)
+{
+    <div id="orderSuccessMessage" class="alert alert-success">
+        @TempData["OrderSuccessMessage"]
+    </div>
+}
+<style>
+    .alert-success {
+        padding: 15px;
+        background-color: #4CAF50;
+        color: white;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+</style>
+<script>
+    // Hide the success message after 6 seconds (6000 milliseconds)
+    setTimeout(function () {
+        var messageElement = document.getElementById("orderSuccessMessage");
+        if (messageElement) {
+            messageElement.style.display = "none";
+        }
+    }, 6000); // 6 seconds
+</script>
+
+
+
+<div class="container">
+    <div class="row">
+        <div class="col-md-3">
+          <h1 style="color: antiquewhite; font-size: 2.5em; letter-spacing: 2px;">Categories</h1>
+            <ul class="list-group">
+                @if (Model.categories != null)
+                {
+                    @foreach (var category in Model.categories)
+                    {
+                        <li class="list-group-item d-flex justify-content-between align-items-center">
+                            <a href="/Book/GetBooksCategory/@category.CategoryID" class="text-decoration-none">@category.Name</a>
+                            <span class="badge badge-primary badge-pill">@category.Book?.Count</span>
+                        </li>
+                    }
+                }
+                else
+                {
+                    <li class="list-group-item">No categories available</li>
+                }
+            </ul>
+        </div>
+        <div class="col-md-9">
+            <div class="row">
+                <div class="col-md-12 mb-3 d-flex justify-content-end">
+                    <select id="sortOrder" class="form-control custom-dropdown" onchange="saveSelectionAndRedirect()">
+                        <option value="@Url.Action("Index", new { sortOrder = "" })">Sort by Publish Date</option>
+                        <option value="@Url.Action("Index", new { sortOrder = "date_desc" })">Sort by Publish Date (Desc)</option>
+                        <option value="@Url.Action("Index", new { sortOrder = "Price" })">Sort by Price (Low to High)</option>
+                        <option value="@Url.Action("Index", new { sortOrder = "price_desc" })">Sort by Price (High to Low)</option>
+                    </select>
+                </div>
+                @if (Model.books != null && Model.books.Any())
+                {
+                    @foreach (var book in Model.books)
+                    {
+                        <div class="col-md-4">
+                            <div class="card mb-4" data-book-id="@book.BookID">
+                                <div class="book-image-container">
+                                    <img src="~/assets/img/@book.ImagePath" class="card-img-top book-image" alt="@book.Title" data-url="@Url.Action("Details", "Book", new { Bookid = book.BookID })">
+                                    <form action="/Book/AddToWishlist" onsubmit="return showAlert()"  method="post">
+                                        <input type="hidden" name="bookId" value="@book.BookID" />
+                                        <button type="submit" class="icon wishlist1-icon">
+                                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M19.5003 12.5717L12.0003 19.9997L4.5003 12.5717C4.00561 12.0903 3.61594 11.5117 3.35585 10.8723C3.09575 10.2329 2.97086 9.54664 2.98904 8.85662C3.00721 8.1666 3.16806 7.48782 3.46146 6.86303C3.75485 6.23823 4.17444 5.68094 4.69379 5.22627C5.21314 4.77159 5.82101 4.42938 6.47911 4.22117C7.13722 4.01296 7.83131 3.94327 8.51767 4.01649C9.20403 4.08971 9.8678 4.30425 10.4672 4.64659C11.0666 4.98894 11.5885 5.45169 12.0003 6.00569C12.4138 5.45571 12.9364 4.99701 13.5354 4.65829C14.1344 4.31958 14.7968 4.10814 15.4812 4.03721C16.1657 3.96628 16.8574 4.03739 17.5131 4.24608C18.1688 4.45477 18.7743 4.79656 19.2919 5.25005C19.8094 5.70354 20.2277 6.25897 20.5207 6.88158C20.8137 7.50419 20.975 8.18057 20.9946 8.8684C21.0142 9.55622 20.8916 10.2407 20.6344 10.8789C20.3773 11.5172 19.9912 12.0955 19.5003 12.5777" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        </button>
+                                    </form>
+                                </div>
+                                <div class="card-body">
+                                    <h5 class="card-title">@book.Title</h5>
+                                    <p class="card-text">Author: @book.AuthorName</p>
+                                    <p class="card-text">Price: <strong>@book.Price</strong></p>
+                                    @if (book.StockQuantity != 0)
+                                    {
+                                        <p class="card-text">StockQuantity: <strong>@book.StockQuantity</strong></p>
+                                    }
+                                    else
+                                    {
+                                        <p class="card-text">StockQuantity: <strong style="color:red">Out Of Stock</strong></p>
+                                    }
+                                    <div class="star-rating">
+                                        @for (int i = 1; i <= 5; i++)
+                                        {
+                                            <svg class="star" data-value="@i" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                                <path d="M8.31402 7.83475C8.47693 7.81113 8.61777 7.70884 8.69063 7.56123L11.5436 1.78123L11.5438 1.78094C11.585 1.69721 11.6489 1.6267 11.7282 1.57739C11.8074 1.52808 11.8989 1.50195 11.9923 1.50195C12.0856 1.50195 12.1771 1.52808 12.2564 1.57739C12.3356 1.6267 12.3995 1.69721 12.4408 1.78094L12.4409 1.78117L15.2929 7.56117C15.3657 7.70879 15.5066 7.81109 15.6695 7.83474L22.0495 8.76074L22.0496 8.76076C22.1371 8.77343 22.2196 8.80906 22.2889 8.86402C22.3581 8.91898 22.4115 8.9913 22.4437 9.07363C22.4758 9.15595 22.4856 9.24533 22.472 9.33266C22.459 9.41586 22.4252 9.49436 22.3739 9.56094L22.3174 9.62245L17.7036 14.1126C17.5855 14.2275 17.5316 14.3932 17.5595 14.5555L18.6505 20.9105L18.6505 20.9107C18.6656 20.9981 18.6571 21.088 18.6259 21.171C18.5948 21.2541 18.5421 21.3274 18.4733 21.3833C18.4045 21.4393 18.322 21.476 18.2344 21.4896C18.1506 21.5026 18.0649 21.494 17.9854 21.4648L17.9125 21.4313L12.2314 18.4376C12.0856 18.3608 11.9114 18.3607 11.7656 18.4374L6.0596 21.4374L6.0594 21.4375C5.98099 21.4787 5.89301 21.4984 5.80448 21.4945C5.71595 21.4906 5.63005 21.4632 5.55557 21.4152C5.4811 21.3672 5.42072 21.3002 5.38063 21.2212C5.34237 21.1458 5.32389 21.062 5.32683 20.9776L5.33629 20.8976L6.42408 14.5554C6.45192 14.3931 6.39805 14.2275 6.28003 14.1126L1.65803 9.61363L1.65757 9.61318C1.59408 9.55154 1.54808 9.47415 1.52428 9.38892C1.50048 9.30369 1.49973 9.21367 1.5221 9.12805C1.54447 9.04243 1.58916 8.96428 1.65161 8.90158C1.7112 8.84176 1.78492 8.79805 1.86585 8.77445L1.94808 8.75771L8.31402 7.83475Z" fill="white" stroke="black" stroke-linecap="round" stroke-linejoin="round" />
+                                            </svg>
+                                        }
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    }
+                }
+                else
+                {
+                    <div class="col-md-12">
+                        <p>No books available</p>
+                    </div>
+                }
+            </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="d-flex justify-content-center">
+                        @Html.PagedListPager(Model.books, page => Url.Action("Index", new { page, sortOrder = ViewBag.CurrentSort }))
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<style>
+    .list-group-item a:hover {
+        color: #007bff;
+        text-decoration: underline;
+    }
+
+    .pagination-container .pagination .active span {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 50%;
+        background-color: #f0f0f0;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .pagination-container .pagination a {
+        display: inline-block;
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 18px;
+        border-radius: 50%;
+        background-color: #f0f0f0;
+        text-decoration: none;
+        margin: 5px;
+    }
+
+    .badge-pill {
+        background-color: #007bff;
+    }
+
+    .card-img-top {
+        width: 100%; /* Ensure the image takes the full width of the container */
+        height: 280px; /* Set a fixed height for the image container */
+        object-fit: fill; /* Ensure the image covers the container while maintaining aspect ratio */
+        cursor: pointer;
+    }
+
+    .badge-danger {
+        background-color: #dc3545;
+    }
+
+    .pagination-container {
+        text-align: center;
+        margin-top: 20px;
+    }
+
+    .col-md-3 h3 {
+        display: inline-block;
+        width: 100%;
+        height: auto;
+        font-size: 32px;
+        color: white;
+        background-color: transparent;
+        text-align: center;
+    }
+
+
+    .custom-dropdown {
+        width: 200px; /* Adjust the width as needed */
+    }
+
+    .star-rating {
+        display: flex;
+        gap: 5px;
+    }
+
+    .star {
+        width: 24px;
+        cursor: pointer;
+    }
+
+    /* Book Image Container */
+    .book-image-container {
+        position: relative;
+    }
+
+    /* Wishlist Icon */
+    .wishlist1-icon {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        transition: fill 0.3s;
+    }
+
+        .wishlist1-icon svg path {
+            transition: fill 0.3s;
+        }
+
+        .wishlist1-icon:hover svg path {
+            fill: red; /* Change to the desired fill color on hover */
+        }
+</style>
+<script>
+    document.addEventListener('DOMContentLoaded', function () {
+        const bookCards = document.querySelectorAll('.card');
+        console.log('Book cards:', bookCards);
+
+        bookCards.forEach(card => {
+            const stars = card.querySelectorAll('.star');
+            console.log('Stars:', stars);
+            let clickedValue = 0;
+
+            stars.forEach(star => {
+                console.log('Star data-value:', star.getAttribute('data-value'));
+
+                star.addEventListener('mouseover', function () {
+                    const value = this.getAttribute('data-value');
+                    console.log('Mouseover value:', value);
+                    fillStars(stars, value);
+                });
+
+                star.addEventListener('mouseout', function () {
+                    fillStars(stars, clickedValue);
+                });
+
+                star.addEventListener('click', function (event) {
+                    event.stopPropagation(); // Prevent navigation to book details
+                    clickedValue = this.getAttribute('data-value');
+                    console.log('Clicked value:', clickedValue);
+                    fillStars(stars, clickedValue);
+                    const bookId = card.getAttribute('data-book-id');
+                    saveRating(bookId, clickedValue);
+                });
+            });
+        });
+
+        function fillStars(stars, value) {
+            stars.forEach(star => {
+                const starValue = star.getAttribute('data-value');
+                const path = star.querySelector('path');
+                if (path) {
+                    if (starValue <= value) {
+                        path.setAttribute('fill', 'black');
+                    } else {
+                        path.setAttribute('fill', 'white');
+                    }
+                } else {
+                    console.error('Path element not found in star');
+                }
+            });
+        }
+
+        function saveRating(bookId, rating) {
+            const payload = { bookId, rating };
+            console.log('Payload:', payload);
+
+            fetch('http://localhost:59884/Book/RateBook', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                    'X-CUSTOM-TOKEN': 'your-custom-token' // Replace with your custom token
+                },
+                body: JSON.stringify(payload)
+            }).then(response => {
+                if (!response.ok) {
+                    return response.json().then(errorData => {
+                        console.error('Error response:', errorData);
+                        throw new Error('Network response was not ok');
+                    });
+                }
+                return response.json();
+            }).then(data => {
+                if (data.success) {
+                    console.log('Rating submitted:', data);
+                    // alert('Rating submitted successfully! Average rating: ' + data.averageRating);
+                } else {
+                    alert('Failed to submit rating.');
+                }
+            }).catch(error => {
+                console.error('Error:', error);
+                alert('Login to rate');
+            });
+        }
+
+        const bookImages = document.querySelectorAll('.book-image');
+        bookImages.forEach(image => {
+            image.addEventListener('click', function () {
+                const url = this.getAttribute('data-url');
+                window.location.href = url;
+            });
+        });
+    });
+    // Function to save the selected value to localStorage and redirect
+    function saveSelectionAndRedirect() {
+        var sortOrder = document.getElementById('sortOrder').value;
+        localStorage.setItem('selectedSortOrder', sortOrder);
+        location = sortOrder; // Redirect to the selected value
+    }
+
+    // Function to set the selected value from localStorage
+    function setSelection() {
+        var selectedSortOrder = localStorage.getItem('selectedSortOrder');
+        if (selectedSortOrder) {
+            document.getElementById('sortOrder').value = selectedSortOrder;
+        }
+    }
+
+    // Call setSelection when the page loads
+    window.onload = setSelection;
+
+</script>
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+<script>
+    $(document).ready(function () {
+        $('.wishlist-form').on('submit', function (event) {
+            event.preventDefault(); // Prevent the default form submission
+
+            var form = $(this);
+            var bookId = form.find('input[name="bookId"]').val();
+
+            $.ajax({
+                url: '/Book/AddToWishlist',
+                type: 'POST',
+                contentType: 'application/json',
+                data: JSON.stringify({ bookId: bookId }),
+                success: function (data) {
+                    if (data.success) {
+                        alert('Book added to wishlist!');
+                    } else {
+                        alert('Failed to add book to wishlist.');
+                    }
+                },
+                error: function (error) {
+                    console.error('Error:', error);
+                }
+            });
+        });
+    });
+</script>
+
+<script>
+    function showAlert() {
+        alert('Book added to wishlist!');
+        return true; // Allow the form to be submitted
+    }
+</script>

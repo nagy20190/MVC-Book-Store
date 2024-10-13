@@ -1,0 +1,20 @@
+﻿@model Category
+
+@{
+    ViewData["Title"] = "Delete";
+}
+
+<div>
+    <h1 style="color:red">Delete</h1>
+    <h2> Are You Sure You Want To Delete This Item ? </h2>
+    <h3> Name : @Model.Name </h3>
+
+</div>
+
+
+<form asp-controller="Category" asp-action="ConfirmDelete" asp-route-id="@Model.CategoryID">
+    <input type="submit" value="Delete" class="btn btn-danger" style="color:darkred">
+    <a asp-controller="Category" asp-action="Index" class="btn btn-success"> Cancel </a>
+
+</form>
+

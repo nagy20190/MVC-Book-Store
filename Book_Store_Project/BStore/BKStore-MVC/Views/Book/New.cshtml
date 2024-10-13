@@ -1,0 +1,200 @@
+﻿@model Book
+
+@{
+    ViewData["Title"] = "New Book";
+}
+
+<style>
+    .container {
+        background-color: #f9f9f9;
+        padding: 20px;
+        border-radius: 5px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    }
+
+    h1 {
+        color: #333;
+    }
+
+    .form-label {
+        font-weight: bold;
+    }
+
+    .form-control {
+        border: 1px solid #ced4da;
+        border-radius: 4px;
+        padding: 10px;
+        transition: border-color 0.2s ease;
+    }
+
+        .form-control:focus {
+            border-color: #80bdff;
+            outline: none;
+        }
+
+    .btn {
+        margin-top: 20px;
+        padding: 10px 20px;
+        border-radius: 4px;
+    }
+
+    .btn-success {
+        background-color: #28a745;
+        border-color: #28a745;
+    }
+
+    .btn-secondary {
+        background-color: #6c757d;
+        border-color: #6c757d;
+    }
+
+    .text-danger.error-message {
+        font-size: 0.875em;
+        margin-top: 0.25rem;
+    }
+
+    .is-invalid {
+        border-color: #dc3545;
+    }
+
+    .modal-content {
+        border-radius: 5px;
+    }
+
+    .modal-header {
+        background-color: #f8f9fa;
+        border-bottom: 1px solid #e9ecef;
+    }
+
+    .modal-footer {
+        border-top: 1px solid #e9ecef;
+    }
+</style>
+
+<h1 class="text-center my-4">Add New Book</h1>
+
+<div class="container">
+    <form id="bookForm" method="post" asp-action="SaveNew" asp-controller="Book" enctype="multipart/form-data" onsubmit="return validateAndConfirm()">
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="Title" class="form-label">Book Title</label>
+                <input class="form-control" asp-for="Title" placeholder="Enter Book Title" />
+                <span asp-validation-for="Title" class="text-danger error-message"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Price" class="form-label">Price</label>
+                <input class="form-control" asp-for="Price" placeholder="Enter Book Price" />
+                <span asp-validation-for="Price" class="text-danger error-message"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="AuthorName" class="form-label">Author's Name</label>
+                <input class="form-control" asp-for="AuthorName" placeholder="Enter Author's Name" />
+                <span asp-validation-for="AuthorName" class="text-danger error-message"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="PublisherName" class="form-label">Publisher's Name (Optional)</label>
+                <input class="form-control" asp-for="PublisherName" placeholder="Enter Publisher's Name (Optional)" />
+                <span asp-validation-for="PublisherName" class="text-danger error-message"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="StockQuantity" class="form-label">Stock Quantity</label>
+                <input class="form-control" asp-for="StockQuantity" placeholder="Enter Stock Quantity" />
+                <span asp-validation-for="StockQuantity" class="text-danger error-message"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="CategoryID" class="form-label">Category</label>
+                <select asp-for="CategoryID" asp-items="@(new SelectList(ViewData["Categories"] as List<Category>, "CategoryID", "Name"))" class="form-control">
+                    <option value="">-- Select a Category --</option>
+                </select>
+                <span asp-validation-for="CategoryID" class="text-danger error-message"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="ImagePath" class="form-label">Upload Image (Required)</label>
+                <input type="file" class="form-control" asp-for="ImagePath" />
+                <span asp-validation-for="ImagePath" class="text-danger error-message"></span>
+            </div>
+
+            <div class="col-md-6">
+                <label asp-for="Description" class="form-label">Description (Optional)</label>
+                <input class="form-control" asp-for="Description" placeholder="Enter Book Description (Optional)" />
+                <span asp-validation-for="Description" class="text-danger error-message"></span>
+            </div>
+        </div>
+
+        <div class="row mb-3">
+            <div class="col-md-6">
+                <label asp-for="Publishdate" class="form-label">Publish Date (Optional)</label>
+                <input class="form-control" asp-for="Publishdate" placeholder="Enter Publish Date (Optional)" />
+                <span asp-validation-for="Publishdate" class="text-danger error-message"></span>
+            </div>
+        </div>
+
+        <div class="text-center">
+            <input type="submit" value="Create" class="btn btn-success btn-lg px-4" />
+            <a asp-action="GetAllToAdmin" class="btn btn-secondary btn-lg px-4">Back To List</a>
+        </div>
+    </form>
+</div>
+
+<!-- Confirmation Modal -->
+<div class="modal fade" id="confirmationModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLabel">Confirm Submission</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                Are you sure you want to add this book?
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+                <button type="button" class="btn btn-primary" id="confirmBtn">Yes, Add Book</button>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        function validateAndConfirm() {
+            let requiredFields = ['Title', 'Price', 'AuthorName', 'StockQuantity', 'CategoryID', 'ImagePath'];
+            let isValid = true;
+
+            requiredFields.forEach(function (field) {
+                let input = document.getElementById(field);
+                if (input) {
+                    if ((input.type === "file" && input.files.length === 0) || (input.value.trim() === "" || input.value === "0")) {
+                        isValid = false;
+                        input.classList.add('is-invalid');
+                    } else {
+                        input.classList.remove('is-invalid');
+                    }
+                }
+            });
+
+            if (isValid) {
+                var modal = new bootstrap.Modal(document.getElementById('confirmationModal'), {});
+                modal.show();
+                document.getElementById('confirmBtn').onclick = function () {
+                    document.getElementById('bookForm').submit();
+                };
+                return false; // Prevent form submission until confirmed
+            }
+
+            return false; // Prevent form submission if validation fails
+        }
+    </script>
+}

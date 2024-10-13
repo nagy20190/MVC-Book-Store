@@ -1,0 +1,106 @@
+﻿@model IEnumerable<BKStore_MVC.Models.Order>
+
+@{
+    ViewData["Title"] = "GetAll";
+}
+
+<h1>GetAll</h1>
+
+<p>
+    <a asp-action="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderId)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.OrderDate)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.TotalAmount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.CustomerID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.DelivaryStatus)
+            </th>
+            @if (User.IsInRole("Admin") | User.IsInRole("Delivery"))
+                        {
+
+            <th>
+                @Html.DisplayNameFor(model => model.DeliveryClientsID)
+            </th>
+                        }
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderId)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.OrderDate)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TotalAmount)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CustomerID)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.DelivaryStatus)
+                </td>
+                @if (User.IsInRole("Admin") | User.IsInRole("Delivery"))
+                {
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.DeliveryClientsID)
+                </td>
+                }
+                <td>
+
+                    @Html.ActionLink("Details", "DetailedOrder", "Order", new { OrderId = item.OrderId }, null)
+
+                </td>
+                @if (User.IsInRole("Delivery"))
+                {
+
+                    @if (item.DelivaryStatus == "Delivering")
+                    {
+                        <td>
+                            <button onclick="updateOrderStatus(@item.OrderId)">Mark as Delivered</button>
+                        </td>
+                    }
+                }
+            </tr>
+        }
+    </tbody>
+</table>
+
+<script>
+    function updateOrderStatus(orderId) {
+        // Use fetch or XMLHttpRequest to send a request to the server
+        fetch(`/Order/UpdateStatus?orderID=${orderId}`, {
+            method: 'POST'
+        })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    alert('Order status updated successfully!');
+                    location.reload(); // Reload the page to reflect the changes
+                } else {
+                    alert('Failed to update order status.');
+                }
+            })
+            .catch(error => console.error('Error:', error));
+    }
+</script>
+
+@* <span id="status-@item.DeliveryClientsID">@item.DelivaryStatus</span>
+ *@

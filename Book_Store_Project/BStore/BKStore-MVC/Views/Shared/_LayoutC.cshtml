@@ -1,0 +1,257 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - BKStore_MVC</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/css/styles.css" asp-append-version="true" />
+    <style>
+        .wishlist-icon {
+            left: 300px; /* Adjust this value as needed */
+            top: 40%; /* Center vertically, adjust as needed */
+        }
+        .wishlist-icon svg path {
+            transition: fill 0.3s;
+        }
+
+        .wishlist-icon:hover svg path {
+            fill: red; /* Change to the desired fill color on hover */
+        }
+
+        .sidebar {
+            width: 250px;
+            background-color: #f4f4f4;
+            padding: 15px;
+            box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+            position: fixed;
+            height: 100%;
+            left: -250px; /* Hide sidebar by default */
+            transition: left 0.3s;
+            z-index: 1000; /* Ensure sidebar appears on top */
+        }
+
+            .sidebar a {
+                display: block;
+                color: #333;
+                padding: 10px;
+                text-decoration: none;
+            }
+
+                .sidebar a:hover {
+                    background-color: #ddd;
+                }
+
+        .main-content {
+            margin-left: 20px; /* Adjust based on sidebar width */
+            padding: 20px;
+            z-index: 1; /* Ensure main content is below the sidebar */
+        }
+
+        .open-sidebar {
+            left: 0; /* Show sidebar */
+        }
+
+        .search-bar {
+            display: flex;
+            align-items: center;
+            width: 40%; /* Make search bar larger */
+            margin-left: -50px; /* Increase length from the left side */
+        }
+
+            .search-bar input {
+                flex: 1;
+                padding: 5px; /* Increase padding for larger input */
+                margin-right: 200px;
+            }
+
+            .search-bar .icon {
+                margin-left: 10px;
+            }
+
+        .auth-buttons {
+            display: flex;
+            align-items: center;
+        }
+
+            .auth-buttons a {
+                margin-left: 10px;
+                text-decoration: none;
+                color: #333;
+            }
+
+                .auth-buttons a:hover {
+                    text-decoration: underline;
+                }
+
+        .dropdown-menu {
+            display: none;
+            position: absolute;
+            background-color: white;
+            border: 1px solid #ccc;
+            width: 100%;
+            max-height: 200px;
+            overflow-y: auto;
+            z-index: 1000;
+        }
+
+            .dropdown-menu.show {
+                display: block;
+            }
+
+        .dropdown-item {
+            padding: 8px 16px;
+            cursor: pointer;
+        }
+
+            .dropdown-item:hover {
+                background-color: #f1f1f1;
+            }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Book" asp-action="Index">Books</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="AboutUs">About us</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="ContactUs">Contact us</a>
+                        </li>
+                        
+                        @if (User.IsInRole("Admin"))
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" href="#" onclick="toggleSidebar()">Settings</a>
+                            </li>
+                        }
+                        @if (User?.Identity?.IsAuthenticated == true)
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="Account" asp-action="SignOut">Sign Out</a>
+                            </li>
+                        }
+
+
+                    </ul>
+                    <div class="search-bar">
+                        <form id="searchForm" asp-action="SearchByName" asp-controller="Book" method="get" class="form-inline">
+                            <input id="searchInput" type="text" name="name" class="form-control" placeholder="Search for books" autocomplete="off" value="@ViewBag.SearchTerm" />
+                            <input type="hidden" id="selectedBookId" name="bookId" />
+                            <div id="searchDropdown" class="dropdown-menu"></div>
+                        </form>
+                    </div>
+
+
+                    <div class="auth-buttons" >
+                        <a href="/Book/ShowWishlist"class="wishlist-icon" >
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M19.5003 12.5717L12.0003 19.9997L4.5003 12.5717C4.00561 12.0903 3.61594 11.5117 3.35585 10.8723C3.09575 10.2329 2.97086 9.54664 2.98904 8.85662C3.00721 8.1666 3.16806 7.48782 3.46146 6.86303C3.75485 6.23823 4.17444 5.68094 4.69379 5.22627C5.21314 4.77159 5.82101 4.42938 6.47911 4.22117C7.13722 4.01296 7.83131 3.94327 8.51767 4.01649C9.20403 4.08971 9.8678 4.30425 10.4672 4.64659C11.0666 4.98894 11.5885 5.45169 12.0003 6.00569C12.4138 5.45571 12.9364 4.99701 13.5354 4.65829C14.1344 4.31958 14.7968 4.10814 15.4812 4.03721C16.1657 3.96628 16.8574 4.03739 17.5131 4.24608C18.1688 4.45477 18.7743 4.79656 19.2919 5.25005C19.8094 5.70354 20.2277 6.25897 20.5207 6.88158C20.8137 7.50419 20.975 8.18057 20.9946 8.8684C21.0142 9.55622 20.8916 10.2407 20.6344 10.8789C20.3773 11.5172 19.9912 12.0955 19.5003 12.5777" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+
+                    <div class="auth-buttons">
+                        <a href="#" class="icon"><i class="fa fa-heart"></i></a>
+                        <a href="#" class="icon"><i class="fa fa-user"></i></a>
+                        <a href="/Book/ShowCart" class="icon">
+                            <img src="~/assets/img/shopping-cart.png" alt="Shopping Cart" style="width: 24px; height: 24px;" />
+                        </a>
+                        @if (User.Identity.IsAuthenticated == false)
+                        {
+                            <a href="@Url.Action("Login", "Account")">Login</a>
+                            <a href="@Url.Action("Register", "Account")">Register</a>
+                        }
+                        <a href="/User/MyAccount/">
+                            <img src="~/assets/img/icon-5359553_1280.png" alt="My Account" style="width: 50px; height: 50px" />
+                        </a>
+                 </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="sidebar" id="sidebar">
+        <h2>Settings</h2>
+        @if (User?.IsInRole("Admin")==true)
+        {
+            <a href="/Book/GetAllToAdmin/">Book</a>
+            <a href="/Customer/GetAll/">Customer</a>
+            <a href="/Delivery/GetAll/">Delivery</a>
+            <a href="/User/GetAll">Users</a>
+            <a href="/Account/AddAdmin">Add Admin&Delivery</a>
+        }
+        <a href="/Order/GetAll">Order</a>
+    </div>
+    <div class="main-content">
+        @RenderBody()
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            © 2024 - BKStore_MVC - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function toggleSidebar() {
+            var sidebar = document.getElementById("sidebar");
+            sidebar.classList.toggle("open-sidebar");
+        }
+
+        // Auto-submit search form on input
+        document.getElementById('searchInput').addEventListener('input', function () {
+            var query = this.value;
+            if (query.length > 0) {
+                $.ajax({
+                    url: '@Url.Action("SearchBooks", "Book")',
+                    type: 'GET',
+                    data: { name: query },
+                    success: function (data) {
+                        var dropdown = document.getElementById('searchDropdown');
+                        dropdown.innerHTML = '';
+                        if (data.length > 0) {
+                            data.forEach(function (book) {
+                                var item = document.createElement('div');
+                                item.className = 'dropdown-item';
+                                item.textContent = book.title;
+                                item.onclick = function () {
+                                    document.getElementById('searchInput').value = book.title;
+                                    document.getElementById('selectedBookId').value = book.id;
+                                    dropdown.classList.remove('show');
+                                };
+                                dropdown.appendChild(item);
+                            });
+                            dropdown.classList.add('show');
+                        } else {
+                            dropdown.classList.remove('show');
+                        }
+                    }
+                });
+            } else {
+                document.getElementById('searchDropdown').classList.remove('show');
+            }
+        });
+    </script>
+</body>
+</html>
