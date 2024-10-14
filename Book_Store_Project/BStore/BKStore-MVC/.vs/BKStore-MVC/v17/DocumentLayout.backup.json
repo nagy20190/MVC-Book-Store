@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|c:\\users\\mg\\desktop\\book_store\\book_store_project\\bstore\\bkstore-mvc\\views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|solutionrelative:views\\book\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|c:\\users\\mg\\desktop\\book_store\\book_store_project\\bstore\\bkstore-mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|c:\\users\\mg\\desktop\\book_store\\book_store_project\\bstore\\bkstore-mvc\\views\\customer\\addcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|solutionrelative:views\\customer\\addcustomer.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|c:\\users\\mg\\desktop\\book_store\\book_store_project\\bstore\\bkstore-mvc\\viewmodel\\bookwithauthorwithpuplisherwithcategvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|solutionrelative:viewmodel\\bookwithauthorwithpuplisherwithcategvm.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|c:\\users\\mg\\desktop\\book_store\\book_store_project\\bstore\\bkstore-mvc\\controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|solutionrelative:controllers\\bookcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{347A7B5B-DB79-4E96-BFCD-49D2C292D180}|BKStore-MVC.csproj|c:\\users\\mg\\desktop\\book_store\\book_store_project\\bstore\\bkstore-mvc\\models\\book.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -47,19 +47,19 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Details.cshtml",
-              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\Views\\Book\\Details.cshtml",
-              "RelativeDocumentMoniker": "Views\\Book\\Details.cshtml",
-              "ToolTip": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\Views\\Book\\Details.cshtml",
-              "RelativeToolTip": "Views\\Book\\Details.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAB6AAAAAAAAAA==",
+              "Title": "AddCustomer.cshtml",
+              "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\Views\\Customer\\AddCustomer.cshtml",
+              "RelativeDocumentMoniker": "Views\\Customer\\AddCustomer.cshtml",
+              "ToolTip": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\Views\\Customer\\AddCustomer.cshtml*",
+              "RelativeToolTip": "Views\\Customer\\AddCustomer.cshtml*",
+              "ViewState": "AgIAABsAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T23:23:38.21Z",
+              "WhenOpened": "2024-10-14T00:15:25.789Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 1,
               "Title": "BookWithAuthorWithPuplisherWithCategVM.cs",
               "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\ViewModel\\BookWithAuthorWithPuplisherWithCategVM.cs",
               "RelativeDocumentMoniker": "ViewModel\\BookWithAuthorWithPuplisherWithCategVM.cs",
@@ -72,7 +72,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "BookController.cs",
               "DocumentMoniker": "C:\\Users\\MG\\Desktop\\Book_Store\\Book_Store_Project\\BStore\\BKStore-MVC\\Controllers\\BookController.cs",
               "RelativeDocumentMoniker": "Controllers\\BookController.cs",
@@ -80,8 +80,7 @@
               "RelativeToolTip": "Controllers\\BookController.cs",
               "ViewState": "AgIAAFAAAAAAAAAAAAAAAGMAAAAuAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:30:42.753Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T18:30:42.753Z"
             },
             {
               "$type": "Document",
@@ -93,8 +92,7 @@
               "RelativeToolTip": "Models\\Book.cs",
               "ViewState": "AgIAABsAAAAAAAAAAADwvyQAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T23:07:09.202Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T23:07:09.202Z"
             },
             {
               "$type": "Document",
@@ -106,8 +104,7 @@
               "RelativeToolTip": "Views\\Book\\Index.cshtml",
               "ViewState": "AgIAAEgAAAAAAAAAAAAMwFYAAABDAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-13T18:35:55.555Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T18:35:55.555Z"
             },
             {
               "$type": "Document",
@@ -119,8 +116,7 @@
               "RelativeToolTip": "Controllers\\AccountController.cs",
               "ViewState": "AgIAACsAAAAAAAAAAAAqwFQAAABCAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-13T18:26:46.486Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-10-13T18:26:46.486Z"
             },
             {
               "$type": "Document",
