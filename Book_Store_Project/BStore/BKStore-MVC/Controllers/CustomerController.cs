@@ -150,23 +150,28 @@ namespace BKStore_MVC.Controllers
                 {
                     var customerIDCookie = Request.Cookies["CustomerID"];
                     string customerID;
-                    if (customerIDCookie != null)
+                    if (customerIDCookie != null)   
                     {
                         // Use the existing cookie value
                         customerID = JsonConvert.DeserializeObject<string>(customerIDCookie);
-                        Customer customer = customerRepository.GetByID(int.Parse(customerID??" "));
+                        Customer customer = customerRepository.GetByID(int.Parse(customerID ?? " "));
                         customer.Name = customerOrderVM.Name;
                         customer.Address = customerOrderVM.Address;
-                        customer.Phone= customerOrderVM.Phone;
-                        customer.GovernorateID= customerOrderVM.GovernorateID;
+                        customer.Phone = customerOrderVM.Phone;
+                        customer.GovernorateID = customerOrderVM.GovernorateID;
                         var userID = User.FindFirstValue(ClaimTypes.NameIdentifier);
                         customer.UserID = userID;
+
+                        if (customer.UserID == null)
+                        { 
                         customerRepository.Update(customer);
                         customerRepository.Save();
+                        }
                     }
                     else
                     {
                         Customer customer = new Customer();
+                        customer.UserID = customerOrderVM.UserID;
                         customer.Name = customerOrderVM.Name;
                         customer.Address = customerOrderVM.Address;
                         customer.Phone = customerOrderVM.Phone;
@@ -176,9 +181,11 @@ namespace BKStore_MVC.Controllers
                         {
                             customer.UserID = userID;
                         }
-                        customerRepository.Add(customer);
-                        customerRepository.Save();
-
+                        if (customer.UserID == null)
+                        {
+                            customerRepository.Add(customer);
+                            customerRepository.Save();
+                        }
                         // Create a new cookie with the CustomerID
                         customerID = customerRepository.GetByID(customer.ID).ID.ToString();
                         string serializedID = JsonConvert.SerializeObject(customerID);
@@ -186,11 +193,8 @@ namespace BKStore_MVC.Controllers
                         {
                             Expires = DateTimeOffset.Now.AddDays(7) // Set the cookie to expire in 7 days
                         });
-                        
-
                     }
-
-
+                    customerID = JsonConvert.DeserializeObject<string>(customerIDCookie);
                     Order order = new Order
                     {
                         CustomerID = customerRepository.GetByID(int.Parse(customerID??"0")).ID,
@@ -266,6 +270,7 @@ namespace BKStore_MVC.Controllers
                     TempData["OrderSuccessMessage"] = "Your order has been placed successfully!";
                     return RedirectToAction("Index", "Book");
                 }
+            
             }
 
             ViewData["Governoratelst"] = governorateRepository.GetAll();
